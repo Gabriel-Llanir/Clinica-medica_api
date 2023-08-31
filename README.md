@@ -3,29 +3,19 @@
 Repositório para criação e desenvolvimento de uma api em Java usando Spring Boot para uma clínica médica.
 
 Irei criar uma aplicação onde pacientes e médicos podem ser cadastrados para controle e solicitação de pedidos e atendimentos.
+# Descrição
 
-# Enpoints
+App-prestador-servico
+Repositório para desenvolvimento do projeto de uma aplicação, utilizando o framework Spring (FIAP - Digital Business Enablement 2TDSA)
 
-Divididos entre paciente e médico.
+Vamos criar uma aplicação para que prestadores de serviço, como eletricistas, técnicos em eletrodomésticos, etc, possam se registrar e procurar serviços.
+Do outro lado, teremos a opção de usuários se registrarem e fazerem pedidos aos prestadores de serviço, conectando os dois lados e encurtando este caminho.
 
-## Paciente
-/pacientes - usando o verbo POST para cadastrar um novo paciente.
 
-/pacientes - usando o verbo GET para listar os pacientes.
+# Como clonar o repositório
 
-/pacientes - usando o verbo PUT para atualizar as informações de um paciente.
+``` bash
+$ # no terminal digite
+$ git clone https://github.com/Gabriel-Llanir/FazTudo
 
-/pacientes/{id} - usando o verbo GET para detalhar as informações de um paciente.
-
-/pacientes/{id} - usando o verbo DELETE para excluir um paciente.
-
-## Médico
-/medicos - usando o verbo POST para cadastrar um novo médico.
-
-/medicos - usando o verbo GET para listar os médicos.
-
-/medicos - usando o verbo PUT para atualizar as informações de um médico.
-
-/medicos/{id} - usando o verbo GET para detalhar as informações de um médico.
-
-/medicos/{id} - usando o verbo DELETE para excluir um médico.
+```
